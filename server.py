@@ -8,7 +8,7 @@ from googlesearch import search
 
 df = pd.read_csv('list of companies.csv', header=None)
 names = df[0].tolist()
-names = names[1601:1606]
+names = names[:5]
 print("START")
 
 gc = gspread.service_account(filename='client-access.json')
