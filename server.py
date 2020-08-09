@@ -68,7 +68,7 @@ for name in names:
 dataframe = pd.DataFrame(final, columns=['Name', 'Location', 'Class', 'Date of Incorporation', 'Activity',
                                        'Email', 'Website', 'Top Level Employees', 'Linkdin Link 1',
                                        'Linkdin Link 2', 'Linkdin Link 3', 'Linkdin Link 4', 'Linkdin Link 5'])
-
+print(dataframe.shape)
 gc = gspread.service_account(filename='client-access.json')
 sh = gc.open_by_url('https://docs.google.com/spreadsheets/d/1F9e3pi0GlBY948PSauL7nRrKc8LaIX0CZVRz9klj3YU/edit?usp=sharing')
 worksheet = sh.get_worksheet(0)
