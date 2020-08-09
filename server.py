@@ -10,9 +10,6 @@ df = pd.read_csv('list of companies.csv', header=None)
 names = df[0].tolist()
 names = names[:5]
 print("START")
-
-gc = gspread.service_account(filename='client-access.json')
-sh = gc.open_by_url('https://docs.google.com/spreadsheets/d/1F9e3pi0GlBY948PSauL7nRrKc8LaIX0CZVRz9klj3YU/edit?usp=sharing')
 # dataframe = pd.read_csv('list of companies.csv')
 
 final = []
@@ -72,7 +69,8 @@ dataframe = pd.DataFrame(final, columns=['Name', 'Location', 'Class', 'Date of I
                                        'Email', 'Website', 'Top Level Employees', 'Linkdin Link 1',
                                        'Linkdin Link 2', 'Linkdin Link 3', 'Linkdin Link 4', 'Linkdin Link 5'])
 
-data = {}
+gc = gspread.service_account(filename='client-access.json')
+sh = gc.open_by_url('https://docs.google.com/spreadsheets/d/1F9e3pi0GlBY948PSauL7nRrKc8LaIX0CZVRz9klj3YU/edit?usp=sharing')
 worksheet = sh.get_worksheet(0)
 
 worksheet.update([dataframe.columns.values.tolist()] + dataframe.values.tolist())
