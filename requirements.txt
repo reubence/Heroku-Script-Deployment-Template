@@ -5,3 +5,4 @@ gspread
 bs4
 pandas
 lxml
+html5lib

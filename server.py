@@ -8,7 +8,7 @@ from googlesearch import search
 
 df = pd.read_csv('list of companies.csv', header=None)
 names = df[0].tolist()
-names = names[:5]
+names = names[1601:]
 print("START")
 # dataframe = pd.read_csv('list of companies.csv')
 
@@ -63,7 +63,7 @@ for name in names:
             final[-1].extend(linkdinlinks)
 
     except Exception as e:
-        print(e)
+        # print(e)
         pass
 
 dataframe = pd.DataFrame(final, columns=['Name', 'Location', 'Class', 'Date of Incorporation', 'Activity',
