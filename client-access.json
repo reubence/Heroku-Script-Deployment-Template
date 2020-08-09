@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "centered-flow-233704",
+  "private_key_id": "eb6840684e046f91ac3c11bbb91a40bcde3efa35",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCsOFHuOTU62lKk\nI+H4nnFSXIqMHKS30jAVcTCs3SVTNs6cXqbDlxTOmz0FjaGmBjztOIfHVeSFIVhM\njzUFXvtrtwLRS2hscwNSNYD8elL/LBnR7sSeL8FLIiemEMHRiaujsdtWbKyFegQn\niKKH0/hg24nWnB/51L9IbdaX+pPB/Z1oCYcugDFlnPXkDlYQRhBuE4m9EfGCItCT\nGkzEbV4uEetGyhD/J/u0axMvHq8J7yqh5XYXBSZbeQE5IATCjgd5hd6+KOn2isD+\nhh8+sZDyAR65ehP2+AIvS9brKoTw3Db4UjrmZLpdDJjJRgXudjWFuvP022clwICL\nXKgltgbrAgMBAAECggEADVMML7i4YBXNKArorFIh5WPoij+bFOfLtZT81ZsEjMQk\nRx/hmidhwjxrg7b6BzzbUOU7SBZiqFQ0nzPDP+eh3ysZKjVB3oYlfyJJmP8j1b9F\nPiNRjgWW2GfLloMcY8hZgcA8fprI3Ejc8mwVWxnw0RmbOAH7TVqC9CkfXcHS1cLX\nbwOzYm+oGjaZXcMJgMOYq4f80jk1wH0R8LI+rhHF3D2Jl4frAgxB55m9KAwUwawS\n3lonzLxuskg3KL7eNkM3jmwzSh8WtH/srLPgv+191XEJYRAF9mzjwRYCT1Wiq7OT\n36YVJLyK+HUWde89PtjWW8lZUt1gf+ClfevcSx9mLQKBgQDgguC3nKH5haqRYOrC\nQmgqBqWerXq7P0rCE5FkTetJtxV2Lf22Rz3Z8tEh8Q3FuXT4nWLifYxnr10vrbmn\nDTGgwfqGgBLDTH5noWhJf8/2fhHnl0fSpE0pojxcq9p4lHYrtcJ31kKbLWchOV04\nZXMtw+KfxlBJezxvT0XYa8RExQKBgQDEX+ocE990Cbcw+I3Q9I+YpVhXjJkBak82\nUeJaoD0qzhvLM24kPlNm6CrBKc7u7lZFYjCGlDwC0geZ26yyuU13RSASbSw/k19e\nNETdWpmEsiRwW1qRk41Tl3+KiaJLDNeQDrzbvFBIYmjCW/Jv4BmDK03ihbN2djpi\n8kH3yh237wKBgQCX1ovqQgmdutPPvI8o0EaoXZR3S3Zc2wJRXXCQOM5vLV5bbeFP\n/MCM/VaJMQESf0nntnGhIi3qFcTdMQ4FN7wfr/EiM838vWgj6Bqi0skwOLUdPsf5\nYts41BskxalcsXN2PlgGOicT0dIUuzoboSkTg45qZnH4MFuAIEnpg4DazQKBgHo0\ndiwi8dv0b9w50YdHqlUEEIXrKQyIa+MR8hsTvPz2ZrV9u/0yDBTuRi0PJ4fpKibj\ng+88MFxQ+An3evF9/4dJrTvKVM77l024mWJnD0JU2fhR4XrWqAxtKyG7pROvWjZ7\n9WuJNSzWkPri3WxhuX63ZDCjo5sE2DDbMdJSJUxhAoGBAJG2l1n98vEHndXYqCmu\n1/NiDhduX8eKTWX13Iivx4qdh8oRKanDhALZV6mNb8G2fmilVB09FZnc1UhUwHYS\nD+ZfUbrRaDzqUlp2qAR+zc2fWY9EhpS5bFzBnPHqsR7DyjYun3Ou9lDCvGXpGxOk\neFFsrxCB3f5u9AoGYt019iHD\n-----END PRIVATE KEY-----\n",
+  "client_email": "jio-webapp-calendar@centered-flow-233704.iam.gserviceaccount.com",
+  "client_id": "111616282490415945290",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/jio-webapp-calendar%40centered-flow-233704.iam.gserviceaccount.com"
+}
