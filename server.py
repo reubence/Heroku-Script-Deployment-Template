@@ -62,7 +62,8 @@ for name in names:
 
             final[-1].extend(linkdinlinks)
 
-    except:
+    except Exception as e:
+        print(e)
         pass
 
 dataframe = pd.DataFrame(final, columns=['Name', 'Location', 'Class', 'Date of Incorporation', 'Activity',
