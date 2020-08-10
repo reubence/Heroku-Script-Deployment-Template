@@ -4,7 +4,7 @@ import pandas as pd
 import gspread
 
 CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
-chrome_bin = os.environ.get('OOGLE_CHROME_BIN' 'hromedriver'
+chrome_bin = os.environ.get('OOGLE_CHROME_BIN' 'hromedriver')
 options  = webdriver.ChromeOptions()
 options.binary_location = chrome_bin
 options.add_argument(' -- disable-gpu')
