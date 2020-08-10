@@ -20,7 +20,8 @@ for name in names:
         res = requests.get(url, timeout = 60)
         html_page = res.content
         soup = BeautifulSoup(html_page, 'html.parser')
-    except:
+    except Exception as e:
+        print(e)
         continue
     err = 0
     try:
