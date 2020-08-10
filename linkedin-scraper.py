@@ -3,13 +3,14 @@ from selenium.webdriver.chrome.options import Options
 import pandas as pd
 import gspread
 
-GOOGLE_CHROME_PATH = '/app/.apt/usr/bin/google_chrome'
 CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument('--disable-gpu')
-chrome_options.add_argument('--no-sandbox')
-chrome_options.binary_location = GOOGLE_CHROME_PATH
-driver = webdriver.Chrome(execution_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)
+chrome_bin = os.environ.get('OOGLE_CHROME_BIN' 'hromedriver'
+options = webdriver.ChromeOptions()
+options.binary_location = chrome_bin
+options.add_argument(' — disable-gpu')
+options.add_argument(' — no-sandbox')
+options.add_argument(' — headless')
+driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, chrome_options=options)
 
 
 # options = Options()
