@@ -10,7 +10,7 @@ print("START")
 # dataframe = pd.read_csv('list of companies.csv')
 
 final = []
-names = names[100:111]
+names = names[1601:3201]
 for name in names:
 
     temp = [name]
