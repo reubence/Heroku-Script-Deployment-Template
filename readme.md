@@ -62,7 +62,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great heroku templates available on GitHub, however, I didn't find one that really helps me host and run python scripts quickly on heroku so I created this enhanced one. I want to create a heroku-python-script deployment template so amazing that it'll be the last one you ever need.
+There are many great heroku templates available on GitHub, however, I didn't find one that helped me host and run python scripts quickly on heroku so I created this enhanced one. I want to create a heroku-python-script deployment template so amazing that it'll be the last one you ever need.
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
