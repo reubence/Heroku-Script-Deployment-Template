@@ -13,7 +13,7 @@ sh = gc.open_by_url('https://docs.google.com/spreadsheets/d/1F9e3pi0GlBY948PSauL
 # dataframe = pd.read_csv('list of companies.csv')
 
 final = []
-names = names[301:601]
+names = names[301:401]
 for name in names:
     print(name)
     temp = [name]
@@ -23,7 +23,8 @@ for name in names:
         res = requests.get(url)
         html_page = res.content
         soup = BeautifulSoup(html_page, 'html.parser')
-    except:
+    except Exception as e:
+        print(e)
         continue
     
     try:
@@ -31,7 +32,8 @@ for name in names:
         maintable = df_zauba[0]
         maintable.columns = ['1', '2']
         temp.extend([maintable['2'][2], maintable['2'][6], maintable['2'][7], maintable['2'][9]])
-    except:
+    except Exception as e:
+        print(e)
         temp.extend(['', '', '', ''])
     
     try:
@@ -43,13 +45,15 @@ for name in names:
                 email = b[-1]
                 break
         temp.extend([email])
-    except:
+    except Exception as e:
+        print(e)
         temp.append('')
     
     try:
         link = next(search(name, tld="co.in", num=1, stop=1, pause=2))
         temp.append(link)
-    except:
+    except Exception as e:
+        print(e)
         temp.append('')
     
     try:
@@ -63,7 +67,8 @@ for name in names:
                 lurl = next(search(directors['2'][ind] + name + 'linkdin', tld="co.in", num=1, stop=1, pause=2))
                 linkdinlinks.append(lurl)
         temp.append(toplvl)
-    except:
+    except Exception as e:
+        print(e)
         temp.append('')
         linkdinlinks = []
         
@@ -85,6 +90,7 @@ dataframe = pd.DataFrame(final, columns=['Name', 'Location', 'Class', 'Date of I
                                          'Email', 'Website', 'Top Level Employees', 'Linkdin Link 1',
                                          'Linkdin Link 2', 'Linkdin Link 3', 'Linkdin Link 4', 'Linkdin Link 5'])
 
+# dataframe.to_csv('company-list.csv')
 data = {}
 worksheet = sh.get_worksheet(0)
 
