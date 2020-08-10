@@ -43,7 +43,7 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [About the Template(#about-the-project)
+* [About the Template](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
