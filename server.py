@@ -17,7 +17,7 @@ for name in names:
     print(name)
     try:
         url = next(search(name + 'zauba corp', tld="co.in", num=1, stop=1, pause=2))
-        res = requests.get(url)
+        res = requests.get(url, timeout = 60)
         html_page = res.content
         soup = BeautifulSoup(html_page, 'html.parser')
     except:
