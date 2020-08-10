@@ -19,15 +19,15 @@
 <br />
 <p align="center">
   <a href="https://github.com/reubence/heroku-template">
-    <img src="download.png" alt="Logo" >
+    <img src="images/download.png" alt="Logo" >
   </a>
 
   <h3 align="center">Best-HEROKU-Template</h3>
 
   <p align="center">
     An awesome Heroku template to jumpstart your deployment projects!
-    <--<br />
-    <a href="https://github.com/reubence/heroku-template"><strong>Explore the docs »</strong></a>-->
+    <!--<br />
+    <a href="https://github.com/reubence/heroku-template"><strong>Explore the docs »</strong></a> -->
     <br />
     <br />
     <a href="https://github.com/reubence/heroku-template">View Demo</a>
@@ -49,7 +49,7 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-<--* [Roadmap](#roadmap)-->
+<!--* [Roadmap](#roadmap)-->
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -190,4 +190,4 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [license-url]: https://github.com/reubence/heroku-template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/reubence/
-[product-screenshot]: images/download.png
+[product-screenshot]: https://lh3.googleusercontent.com/proxy/l3Fi5jqPd6axyq2qRIgC_LqGaQgY4TplQuqMBctQlzhH2wEidEIbA2BNpVOrSC7idwzDB6G_pm-tLvZMbJa6BVznty5hQH7XlSWe4XjbHO_tAgO7H7o4-3IUERI6Kqgs
