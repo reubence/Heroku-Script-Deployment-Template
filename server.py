@@ -6,11 +6,10 @@ from googlesearch import search
 
 df = pd.read_csv('list of companies.csv', header=None)
 names = df[0].tolist()
-names = names[:1601]
 print("START")
 
 gc = gspread.service_account(filename='client-access.json')
-sh = gc.open_by_url('https://docs.google.com/spreadsheets/d/1QtYJW0jp0XAI-hSdfUwc0CaHKht21Ydy3FnUfd9wY8E/edit?usp=sharing')
+sh = gc.open_by_url('https://docs.google.com/spreadsheets/d/1F9e3pi0GlBY948PSauL7nRrKc8LaIX0CZVRz9klj3YU/edit#gid=0')
 # dataframe = pd.read_csv('list of companies.csv')
 
 final = []
