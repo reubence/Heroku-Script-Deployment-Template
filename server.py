@@ -14,7 +14,7 @@ names = names[1601:3201]
 for name in names:
 
     temp = [name]
-
+    print(name)
     try:
         url = next(search(name + 'zauba corp', tld="co.in", num=1, stop=1, pause=2))
         res = requests.get(url)
