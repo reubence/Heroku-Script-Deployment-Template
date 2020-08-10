@@ -1,8 +1,2 @@
-requests
-google
-bs4
-gspread
-bs4
+selenium
 pandas
-lxml
-html5lib
