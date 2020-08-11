@@ -19,7 +19,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/reubence/heroku-template">
-    <img src="https://lh3.googleusercontent.com/proxy/l3Fi5jqPd6axyq2qRIgC_LqGaQgY4TplQuqMBctQlzhH2wEidEIbA2BNpVOrSC7idwzDB6G_pm-tLvZMbJa6BVznty5hQH7XlSWe4XjbHO_tAgO7H7o4-3IUERI6Kqgs" alt="Logo" >
+    <img src="images/download.png" alt="Logo" >
   </a>
 
   <h3 align="center">HEROKU-Deployment-Template</h3>
@@ -62,10 +62,10 @@
 
 <p align="center">
   <a href="https://github.com/reubence/heroku-template">
-    <img src=product-screenshot alt="Logo" >
+    <img src=https://lh3.googleusercontent.com/proxy/l3Fi5jqPd6axyq2qRIgC_LqGaQgY4TplQuqMBctQlzhH2wEidEIbA2BNpVOrSC7idwzDB6G_pm-tLvZMbJa6BVznty5hQH7XlSWe4XjbHO_tAgO7H7o4-3IUERI6Kqgs alt="Logo" >
   </a> <!--[![Product Name Screen Shot][product-screenshot]](https://example.com) --></p>
 
-There are many great heroku templates available on GitHub, however, I didn't find one that helped me host and run python scripts quickly on heroku so I created this enhanced one. I want to create a heroku-python-script deployment template so amazing that it'll be the last one you ever need.
+There are many great heroku templates available on GitHub, however, I didn't find one that was configured to host and run python scripts quickly on heroku (on a worker dyno) so I created this enhanced one. I want to create a deployment template so amazing that it'll be the last one you ever need.
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
@@ -86,9 +86,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+First things first, Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and type the following to log into your heroku account ```bash heroku login ```.
 
 ### Prerequisites
 
