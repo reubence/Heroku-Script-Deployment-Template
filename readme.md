@@ -154,7 +154,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Reuben Rapose - [@reuben_rapose](https://twitter.com/your_username) - reuben.rapose@gmail.com
+Reuben Rapose - [@reubence](https://www.linkedin.com/in/reubence/) - reuben.rapose@gmail.com
 
 Project Link: [https://github.com/reubence/Heroku-Script-Deployment-Template](https://github.com/reubence/Heroku-Script-Deployment-Template)
 
