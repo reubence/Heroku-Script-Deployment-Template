@@ -86,17 +86,17 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 <!-- GETTING STARTED -->
 ## Getting Started
-First things first, this template is configured to host a worker dyno which allows you to host python scripts on heroku using this template. You can modify this template to run a flask frontend by editing the procfile to ``` web: gunicorn app:server ``` (Renamed python file to app.py). Many templates and/or documentations are available online for the same. I'll be going over the steps to configure a worker dyno for hosting scripts on heroku.
+First things first, this template is configured to host a worker dyno which allows you to host python scripts on heroku using this template. You can modify this template to run a flask frontend by editing the procfile to ``` web: gunicorn app:server ``` (Renamed python file to app.py). Many templates and/or documentations are available online for the same. I'll be going over the steps to configure a worker dyno for hosting scripts on heroku only for the purposes of this guide.
 
 ### Prerequisites
 
 Before we begin, you need a couple of things installed...
-* [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and type the following to log into your heroku account ```heroku login ```. 
-* [git](https://git-scm.com/downloads)
+* Download and Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and type the following to log into your heroku account ```heroku login ```. 
+* Download and Install [git](https://git-scm.com/downloads)
 
-After Downloading git, you can run these commands to set your username and password.
-	```sh git config --global user.email "your_email_address@example.com"
-	   git config --global user.name "your_username"```
+After Downloading git, you can run these commands to set your **username** and **password**.
+	`git config --global user.email "your_email_address@example.com" `
+	```git config --global user.name "your_username" ``` <br/>
 You will also need to log into heroku using the following command.
 	```sh heroku login```
 
@@ -106,29 +106,15 @@ npm install npm@latest -g
 
 ### Installation
 
-1. After Downloading git, you can run these commands to set your username and password.
-	```sh git config --global user.email "your_email_address@example.com"
-	   git config --global user.name "your_username"```
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
-
-
+1. Scroll to the top of this page, and click on the **Use This Template** button to use this template and create your own repo.
+2. Connect the remote repo to your local machine using ``` git remote add origin <remote-repo-url> ```
+ <br/>
+That is all for installation!
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
+1. Replace the 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 
