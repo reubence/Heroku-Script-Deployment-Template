@@ -65,11 +65,11 @@
     <img src=https://lh3.googleusercontent.com/proxy/l3Fi5jqPd6axyq2qRIgC_LqGaQgY4TplQuqMBctQlzhH2wEidEIbA2BNpVOrSC7idwzDB6G_pm-tLvZMbJa6BVznty5hQH7XlSWe4XjbHO_tAgO7H7o4-3IUERI6Kqgs alt="Logo" >
   </a> <!--[![Product Name Screen Shot][product-screenshot]](https://example.com) --></p>
 
-There are many great heroku templates available on GitHub, however, I didn't find one that was configured to host and run python scripts quickly on heroku (on a worker dyno) so I created this enhanced one. I want to create a deployment template so amazing that it'll be the last one you ever need.
+There are many great heroku templates available on GitHub, however, I didn't find one that was configured to host and run python scripts quickly on heroku (on a worker dyno) so I created this enhanced one. <!-- I want to create a deployment template so amazing that it'll be the last one you ever need.-->
 
 Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like preparing a script for deployment on heroku from scratch. In my case, I didn't want to spend time waiting for my code to run. I'd rather just host it on a server and used the freed up space on my PC to play games :stuck_out_tongue_winking_eye:.
+* Your time should be focused on creating something amazing. A project that solves a problem and helps others.
+* You shouldn't be doing the same tasks over and over like preparing files for deployment on heroku from scratch.
 * You should reserve the DRY principles to the rest of your life :smile:
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
