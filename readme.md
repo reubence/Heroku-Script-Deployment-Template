@@ -112,7 +112,7 @@ npm install npm@latest -g
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Edit the ***server.py*** file in the repo and add your own python scripts. 
+1. Edit the ***server.py*** file in the repo to add your own python scripts. 
 2. If you've used any external packages you would be required to mention them in the ***requirements.txt*** file. 
 3. If you've changed the name of the file in **Step 1** then you need to edit it in the ***Procfile*** as well.
 4. To deploy to heroku, follow the usual steps for any heroku deployment.
@@ -123,12 +123,12 @@ npm install npm@latest -g
 
 
 
-<!-- ROADMAP -->
+<!-- ROADMAP 
 ## Roadmap
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
 
-
+-->
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -143,24 +143,25 @@ Contributions are what make the open source community such an amazing place to b
 
 
 
-<!-- LICENSE -->
+<!-- LICENSE 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
+-->
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Reuben Rapose - [@reuben_rapose](https://twitter.com/your_username) - reuben.rapose@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/your_username/repo_name](https://github.com/reubence/heroku-template)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
+* [Heroku](https://heroku.com/)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Img Shields](https://shields.io)
 * [Choose an Open Source License](https://choosealicense.com)
