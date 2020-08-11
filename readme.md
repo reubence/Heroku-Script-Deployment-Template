@@ -94,7 +94,7 @@ Before we begin, you need a couple of things installed...
 * Download and Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and type the following to log into your heroku account ```heroku login ```. 
 * Download and Install [git](https://git-scm.com/downloads)
 
-After Downloading git, you can run these commands to set your **username** and **password**.
+After Downloading git, you can run these commands to set your **username** and **password**.<br/>
 	```git config --global user.email "your_email_address@example.com" ```<br/>
 	 ```git config --global user.name "your_username" ``` <br/>
 
@@ -115,10 +115,10 @@ npm install npm@latest -g
 3. If you've changed the name of the file in **Step 1** then you need to edit it in the ***Procfile*** as well.
 ```worker: python file-name.py```
 4. To deploy to heroku, follow the usual steps for any heroku deployment.
-```git add.```
-```git commit -m"Heroku push"```
-```heroku create```
-```git push heroku master```
+```git add.
+git commit -m"Heroku push"
+heroku create
+git push heroku master```
 
 
 
