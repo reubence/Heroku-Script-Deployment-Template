@@ -84,7 +84,7 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 <!-- GETTING STARTED -->
 ## Getting Started
-First things first, this template is configured to host a worker dyno which allows you to host python scripts on heroku using this template. You can modify this template to run a flask frontend by editing the procfile to ``` web: gunicorn app:server ``` (Renamed server.py file to app.py). Many templates and/or documentations are available online for the same. I'll be going over the steps to configure a worker dyno for hosting scripts on heroku only for the purposes of this guide.
+First things first, this template is configured to host a worker dyno which allows you to host python scripts on heroku. You can modify this template to run a flask frontend by editing the procfile to ``` web: gunicorn app:server ``` (Renamed server.py file to app.py). Many templates and/or documentations are available online for the same. I'll be going over the steps to configure a worker dyno for hosting scripts on heroku only for the purposes of this guide.
 
 ### Prerequisites
 
