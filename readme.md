@@ -60,7 +60,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p align = "center"> [![Product Name Screen Shot][product-screenshot]](https://example.com) </p
+<p align="center">
+  <a href="https://github.com/reubence/heroku-template">
+    <img src=product-screenshot alt="Logo" >
+  </a> <!--[![Product Name Screen Shot][product-screenshot]](https://example.com) --></p>
 
 There are many great heroku templates available on GitHub, however, I didn't find one that helped me host and run python scripts quickly on heroku so I created this enhanced one. I want to create a heroku-python-script deployment template so amazing that it'll be the last one you ever need.
 
