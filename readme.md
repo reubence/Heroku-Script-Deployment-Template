@@ -94,10 +94,10 @@ Before we begin, you need a couple of things installed...
 * Download and Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and type the following to log into your heroku account ```heroku login ```. 
 * Download and Install [git](https://git-scm.com/downloads)
 
-After Downloading git, you can run these commands to set your **username** and **password**.<br/>
-	```git config --global user.email "your_email_address@example.com" ```<br/>
-	 ```git config --global user.name "your_username" ``` <br/>
-
+After Downloading git, you can run these commands to set your **username** and **password**.
+```git config --global user.email "your_email_address@example.com" 
+   git config --global user.name "your_username" 
+``` 
 <!--```sh
 npm install npm@latest -g
 ```-->
