@@ -58,7 +58,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Template
 
 <p align="center">
   <a href="https://github.com/reubence/heroku-template">
