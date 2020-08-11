@@ -22,19 +22,19 @@
     <img src="images/download.png" alt="Logo" >
   </a>
 
-  <h3 align="center">HEROKU-Deployment-Template</h3>
+  <h3 align="center">HEROKU Script-Deployment Template</h3>
 
   <p align="center">
-    An awesome template to jumpstart your heroku deployment projects!
+    An awesome template to jumpstart your python script hosting projects on Heroku!
     <!--<br />
-    <a href="https://github.com/reubence/heroku-template"><strong>Explore the docs »</strong></a> -->
+    <a href="https://github.com/reubence/Heroku-Script-Deployment-Template"><strong>Explore the docs »</strong></a> -->
     <br />
     <br />
-    <a href="https://github.com/reubence/heroku-template">View Demo</a>
+    <a href="https://github.com/reubence/Heroku-Script-Deployment-Template">View Demo</a>
     ·
-    <a href="https://github.com/reubence/heroku-template/issues">Report Bug</a>
+    <a href="https://github.com/reubence/Heroku-Script-Deployment-Template/issues">Report Bug</a>
     ·
-    <a href="https://github.com/reubence/heroku-template/issues">Request Feature</a>
+    <a href="https://github.com/reubence/Heroku-Script-Deployment-Template/issues">Request Feature</a>
   </p>
 </p>
 
@@ -69,8 +69,8 @@ There are many great heroku templates available on GitHub, however, I didn't fin
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like preparing a script for deployment on heroku from scratch. In my case, I didn't want to spend time waiting for my code to run. I'd rather just host it on a server and go play games maybe.
-* You should element DRY principles to the rest of your life :smile:
+* You shouldn't be doing the same tasks over and over like preparing a script for deployment on heroku from scratch. In my case, I didn't want to spend time waiting for my code to run. I'd rather just host it on a server and used the freed up space on my PC to play games :stuck_out_tongue_winking_eye:.
+* You should reserve the DRY principles to the rest of your life :smile:
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
 
@@ -86,7 +86,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 <!-- GETTING STARTED -->
 ## Getting Started
-First things first, this template is configured to host a worker dyno which allows you to host python scripts on heroku using this template. You can modify this template to run a flask frontend by editing the procfile to ``` web: gunicorn app:server ``` (Renamed python file to app.py). Many templates and/or documentations are available online for the same. I'll be going over the steps to configure a worker dyno for hosting scripts on heroku only for the purposes of this guide.
+First things first, this template is configured to host a worker dyno which allows you to host python scripts on heroku using this template. You can modify this template to run a flask frontend by editing the procfile to ``` web: gunicorn app:server ``` (Renamed server.py file to app.py). Many templates and/or documentations are available online for the same. I'll be going over the steps to configure a worker dyno for hosting scripts on heroku only for the purposes of this guide.
 
 ### Prerequisites
 
@@ -95,10 +95,8 @@ Before we begin, you need a couple of things installed...
 * Download and Install [git](https://git-scm.com/downloads)
 
 After Downloading git, you can run these commands to set your **username** and **password**.
-	```git config --global user.email "your_email_address@example.com" ```
+	```git config --global user.email "your_email_address@example.com" ```<br/>
 	 ```git config --global user.name "your_username" ``` <br/>
-You will also need to log into heroku using the following command.
-	```sh heroku login```
 
 <!--```sh
 npm install npm@latest -g
@@ -113,8 +111,9 @@ npm install npm@latest -g
 ## Usage
 
 1. Edit the ***server.py*** file in the repo to add your own python scripts. 
-2. If you've used any external packages you would be required to mention them in the ***requirements.txt*** file. 
+2. If you've used any external packages you need to mention them in the ***requirements.txt*** file. 
 3. If you've changed the name of the file in **Step 1** then you need to edit it in the ***Procfile*** as well.
+```worker: python file-name.py```
 4. To deploy to heroku, follow the usual steps for any heroku deployment.
 ```git add.```
 ```git commit -m"Heroku push"```
@@ -155,7 +154,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Reuben Rapose - [@reuben_rapose](https://twitter.com/your_username) - reuben.rapose@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/reubence/heroku-template)
+Project Link: [https://github.com/reubence/Heroku-Script-Deployment-Template](https://github.com/reubence/Heroku-Script-Deployment-Template)
 
 
 
@@ -180,16 +179,16 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/re
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/reubence/heroku-template.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/reubence/Heroku-Script-Deployment-Template.svg?style=flat-square
 [contributors-url]: https://github.com/reubence
-[forks-shield]: https://img.shields.io/github/forks/reubence/heroku-template.svg?style=flat-square
-[forks-url]: https://github.com/reubence/heroku-template/network/members
-[stars-shield]: https://img.shields.io/github/stars/reubence/heroku-template.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/reubence/Heroku-Script-Deployment-Template.svg?style=flat-square
+[forks-url]: https://github.com/reubence/Heroku-Script-Deployment-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/reubence/Heroku-Script-Deployment-Template.svg?style=flat-square
 [stars-url]: https://github.com/reubence/heroku-template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/reubence/heroku-template.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/reubence/Heroku-Script-Deployment-Template.svg?style=flat-square
 [issues-url]: https://github.com/reubence/heroku-template/issues
-[license-shield]: https://img.shields.io/github/license/reubence/heroku-template.svg?style=flat-square
-[license-url]: https://github.com/reubence/heroku-template/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/reubence/Heroku-Script-Deployment-Template.svg?style=flat-square
+[license-url]: https://github.com/reubence/Heroku-Script-Deployment-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/reubence/
 [product-screenshot]: https://lh3.googleusercontent.com/proxy/l3Fi5jqPd6axyq2qRIgC_LqGaQgY4TplQuqMBctQlzhH2wEidEIbA2BNpVOrSC7idwzDB6G_pm-tLvZMbJa6BVznty5hQH7XlSWe4XjbHO_tAgO7H7o4-3IUERI6Kqgs
