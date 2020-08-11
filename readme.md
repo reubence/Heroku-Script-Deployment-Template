@@ -187,7 +187,7 @@ Project Link: [https://github.com/reubence/Heroku-Script-Deployment-Template](ht
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[last-activity-schield]: https://img.shields.io/github/last-commit/reubence/Heroku-Script-Deployment-Template?style=social
+[last-activity-schield]: https://img.shields.io/github/last-commit/reubence/Heroku-Script-Deployment-Template?style=flat-square
 [last-activity-url]: https://github.com/reubence
 [contributors-shield]: https://img.shields.io/github/contributors/reubence/Heroku-Script-Deployment-Template.svg?style=flat-square
 [contributors-url]: https://github.com/reubence
