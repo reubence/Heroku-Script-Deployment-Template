@@ -22,10 +22,10 @@
     <img src="images/download.png" alt="Logo" >
   </a>
 
-  <h3 align="center">Best-HEROKU-Template</h3>
+  <h3 align="center">HEROKU-Deployment-Template</h3>
 
   <p align="center">
-    An awesome Heroku template to jumpstart your deployment projects!
+    An awesome template to jumpstart your heroku deployment projects!
     <!--<br />
     <a href="https://github.com/reubence/heroku-template"><strong>Explore the docs »</strong></a> -->
     <br />
@@ -60,7 +60,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<p align = "center"> [![Product Name Screen Shot][product-screenshot]](https://example.com) </p
 
 There are many great heroku templates available on GitHub, however, I didn't find one that helped me host and run python scripts quickly on heroku so I created this enhanced one. I want to create a heroku-python-script deployment template so amazing that it'll be the last one you ever need.
 
@@ -74,9 +74,9 @@ Of course, no one template will serve all projects since your needs may be diffe
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
 * [Heroku](https://heroku.com/)
-<--*** [JQuery](https://jquery.com)
+<!--*** [JQuery](https://jquery.com)
 *** [Laravel](https://laravel.com)-->
 
 
