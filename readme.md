@@ -105,7 +105,7 @@ npm install npm@latest -g
 
 ### Installation
 
-1. Scroll to the top of this page, and click on the **Use This Template** button to use this template and create your own repo.
+1. Scroll to the top of this page, and click on the **Use This Template** button to create your own repo using this template.
 2. Connect the remote repo to your local machine using ``` git remote add origin <remote-repo-url> ```
 
 <!-- USAGE EXAMPLES -->
