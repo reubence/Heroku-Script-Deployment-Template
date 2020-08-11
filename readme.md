@@ -10,8 +10,8 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+[![GitHub last commit][last-activity-shield]]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-![GitHub last commit][last-activity-shield]
 <!--[![MIT License][license-shield]][license-url]-->
 
 
