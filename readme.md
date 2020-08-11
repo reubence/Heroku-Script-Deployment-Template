@@ -108,15 +108,19 @@ npm install npm@latest -g
 
 1. Scroll to the top of this page, and click on the **Use This Template** button to use this template and create your own repo.
 2. Connect the remote repo to your local machine using ``` git remote add origin <remote-repo-url> ```
- <br/>
-That is all for installation!
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Replace the 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+1. Edit the ***server.py*** file in the repo and add your own python scripts. 
+2. If you've used any external packages you would be required to mention them in the ***requirements.txt*** file. 
+3. If you've changed the name of the file in **Step 1** then you need to edit it in the ***Procfile*** as well.
+4. To deploy to heroku, follow the usual steps for any heroku deployment.
+```git add.
+git commit -m"Heroku push"
+heroku create
+git push heroku master
+```
 
 
 <!-- ROADMAP -->
