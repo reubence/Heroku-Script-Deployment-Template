@@ -96,7 +96,7 @@ Before we begin, you need a couple of things installed...
 
 After Downloading git, you can run these commands to set your **username** and **password**.
 	```git config --global user.email "your_email_address@example.com" ```
-	   git config --global user.name "your_username" ``` <br/>
+	 ```git config --global user.name "your_username" ``` <br/>
 You will also need to log into heroku using the following command.
 	```sh heroku login```
 
@@ -116,11 +116,11 @@ npm install npm@latest -g
 2. If you've used any external packages you would be required to mention them in the ***requirements.txt*** file. 
 3. If you've changed the name of the file in **Step 1** then you need to edit it in the ***Procfile*** as well.
 4. To deploy to heroku, follow the usual steps for any heroku deployment.
-```git add.
-git commit -m"Heroku push"
-heroku create
-git push heroku master
-```
+```git add.```
+```git commit -m"Heroku push"```
+```heroku create```
+```git push heroku master```
+
 
 
 <!-- ROADMAP -->
