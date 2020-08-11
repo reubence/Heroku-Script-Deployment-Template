@@ -86,19 +86,29 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 <!-- GETTING STARTED -->
 ## Getting Started
-First things first, Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and type the following to log into your heroku account ```bash heroku login ```.
+First things first, this template is configured to host a worker dyno which allows you to host python scripts on heroku using this template. You can modify this template to run a flask frontend by editing the procfile to ``` web: gunicorn app:server ``` (Renamed python file to app.py). Many templates and/or documentations are available online for the same. I'll be going over the steps to configure a worker dyno for hosting scripts on heroku.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
+Before we begin, you need a couple of things installed...
+* [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and type the following to log into your heroku account ```heroku login ```. 
+* [git](https://git-scm.com/downloads)
+
+After Downloading git, you can run these commands to set your username and password.
+	```sh git config --global user.email "your_email_address@example.com"
+	   git config --global user.name "your_username"```
+You will also need to log into heroku using the following command.
+	```sh heroku login```
+
+<!--```sh
 npm install npm@latest -g
-```
+```-->
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. After Downloading git, you can run these commands to set your username and password.
+	```sh git config --global user.email "your_email_address@example.com"
+	   git config --global user.name "your_username"```
 2. Clone the repo
 ```sh
 git clone https://github.com/your_username_/Project-Name.git
