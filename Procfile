@@ -1,1 +1,1 @@
-worker: python linkedin-scraper.py
+worker: python server.py
