@@ -121,6 +121,10 @@ git commit -m"Heroku push"
 heroku create
 git push heroku master
 ```
+5. Now, once deployed, we need to give a command to heroku to start the worker process. (Your script won't start executing unless you run this line in terminal)
+```heroku ps:scale worker=1``` <br />
+Additionally, you can also tell heroku to stop executing once you have got your output.
+```heroku ps:scale worker=0```
 
 
 
