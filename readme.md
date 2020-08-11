@@ -19,7 +19,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/reubence/heroku-template">
-    <img src="images/download.png" alt="Logo" >
+    <img src="https://lh3.googleusercontent.com/proxy/l3Fi5jqPd6axyq2qRIgC_LqGaQgY4TplQuqMBctQlzhH2wEidEIbA2BNpVOrSC7idwzDB6G_pm-tLvZMbJa6BVznty5hQH7XlSWe4XjbHO_tAgO7H7o4-3IUERI6Kqgs" alt="Logo" >
   </a>
 
   <h3 align="center">HEROKU-Deployment-Template</h3>
