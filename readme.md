@@ -115,10 +115,12 @@ npm install npm@latest -g
 3. If you've changed the name of the file in **Step 1** then you need to edit it in the ***Procfile*** as well.
 ```worker: python file-name.py```
 4. To deploy to heroku, follow the usual steps for any heroku deployment.
-```git add.
+```
+git add.
 git commit -m"Heroku push"
 heroku create
-git push heroku master```
+git push heroku master
+```
 
 
 
