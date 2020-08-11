@@ -95,8 +95,8 @@ Before we begin, you need a couple of things installed...
 * Download and Install [git](https://git-scm.com/downloads)
 
 After Downloading git, you can run these commands to set your **username** and **password**.
-	`git config --global user.email "your_email_address@example.com" `
-	```git config --global user.name "your_username" ``` <br/>
+	```git config --global user.email "your_email_address@example.com" ```
+	   git config --global user.name "your_username" ``` <br/>
 You will also need to log into heroku using the following command.
 	```sh heroku login```
 
