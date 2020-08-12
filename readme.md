@@ -63,7 +63,7 @@
 
 <p align="center">
   <a href="https://github.com/reubence/heroku-template">
-    <img src=unnamed.jpg alt="Logo" >
+    <img src=images/unnamed.jpg alt="Logo" >
   </a> <!--[![Product Name Screen Shot][product-screenshot]](https://example.com) --></p>
 
 There are many great heroku templates available on GitHub, however, I didn't find one that was configured to host and run python scripts quickly on heroku (on a worker dyno) so I created this enhanced one. <!-- I want to create a deployment template so amazing that it'll be the last one you ever need.-->
